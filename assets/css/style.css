@@ -9,7 +9,7 @@
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 0 2rem 0 5rem;
+    padding: 2rem 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar{
@@ -47,7 +47,7 @@
 }
 
 .site-main .site-banner .site-title h3{
-    padding-top: 35%;
+    padding-top: 20%;
     font-weight: 500;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
+    padding: 5% 0;
     width: 90rem;
 }
 
@@ -166,11 +166,11 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 5rem 0rem;
 }
 
 .site-main .services-area .services-title{
-    padding: 0 14rem;
+    padding: 0 5rem;
 }
 
 .site-main .services-area .services-title h1{
@@ -180,8 +180,7 @@
 .site-main > .services-area .services{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
+    margin: 2rem 0rem;
     transition: box-shadow .7s ease;
 }
 
