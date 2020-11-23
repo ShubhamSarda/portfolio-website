@@ -145,7 +145,6 @@
     background: #e029290a;
     width: 400px;
     height: 400px;
-    z-index: -1;
 }
 
 .site-main .brand-area .experience-area .years-area .years{
@@ -210,10 +209,10 @@
 
 /* Subscribe me */ 
 
-.site-main .subscribe-us-area .subscribe{
-    background: url(../img/subscribe-bg.png) no-repeat;
+.site-main .subscribe-us-area{
+    background: url(../img/banner/home-bg.jpg) no-repeat;
     padding: 10rem 0;
-    margin: 3rem auto;
+    margin: 0 auto;
 }
 
 .site-main .subscribe-us-area .subscribe .subscribe-title h4{

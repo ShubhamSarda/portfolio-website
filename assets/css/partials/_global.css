@@ -75,5 +75,9 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 39px/ 40px var(--roboto);
+    font: normal bold 35px/ 40px var(--roboto);
+}
+
+.gray-bg{
+    background: #F7F8F9;
 }
