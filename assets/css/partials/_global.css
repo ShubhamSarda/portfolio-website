@@ -3,7 +3,7 @@
 /* Global Classes */ 
 
 .title-text{
-    font: normal bold 50px/ 72px var(--roboto);
+    font: normal bold 42px/ 72px var(--roboto);
 }
 
 .text-uppercase{
@@ -14,10 +14,11 @@
 
 .button{
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    font: normal 600 16px/20px var(--roboto);
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
+    letter-spacing: 1px;
 }
 
 .button.primary-button{
@@ -58,7 +59,7 @@
 
 p.para{
     color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
+    font: normal 500 18px/ 25px var(--roboto);
 }
 
 .font-roboto{
@@ -75,9 +76,20 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 35px/ 40px var(--roboto);
+    font: normal bold 28px/ 40px var(--roboto);
 }
 
 .gray-bg{
     background: #F7F8F9;
+}
+
+.ul-site-seperator{
+    background: #0966e5;
+    width: 50px;
+    height: 3px;
+    margin: 20px auto 30px;
+}
+.emoji-size{
+    font-size: 20px;
+    display:inline;
 }

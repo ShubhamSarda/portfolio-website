@@ -17,10 +17,11 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 900 15px/2px var(--roboto);
+    font: normal 700 15px/2px var(--roboto);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
+    letter-spacing: 1px;
 }
 
 .header_area .main-menu .navbar-nav .active a{
@@ -28,6 +29,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    letter-spacing: 1px;
 }
 
 .header_area .main-menu .navbar-nav a:hover{
@@ -166,7 +168,8 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 5rem 0rem;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
 }
 
 .site-main .services-area .services-title{
@@ -178,10 +181,11 @@
 }
 
 .site-main > .services-area .services{
-    background: rgba(248, 252, 253, 0.973);
+    background: #e6f2ff;
     padding: 2rem 0;
     margin: 2rem 0rem;
     transition: box-shadow .7s ease;
+    border-radius: 10px;
 }
 
 .site-main > .services-area .services:hover{
@@ -202,7 +206,10 @@
 
 
 /* About Me */ 
-
+.site-main .about-area .testimonials{
+    box-shadow: var(--box-shadow);
+    transition: box-shadow .7s ease;
+}
 
 /* End About Me */ 
 
@@ -223,7 +230,15 @@
     color: whitesmoke;
     padding: 1rem 4rem;
 }
-
+.site-main .subscribe-us-area .subscribe form{
+    max-width: 500px;
+    margin: auto;
+    padding: 50px;
+    color: white;
+    font: normal 500 18px/20px var(--roboto);
+    border: 1px solid #e6f2ff;
+    border-radius: 5px;
+}
 .site-main .subscribe-us-area .subscribe form .input-textbox input{
     width: 400px;
     padding: 1.5rem 1rem;
@@ -247,9 +262,14 @@
 
 /* Footer Area */ 
 
+footer{
+    background: var(--gradient-color);
+}
+
 footer.footer-area{
-    padding: 5rem 0;
-    background: url(../img/footer-bg.png) no-repeat;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    /* background: url(../img/footer-bg.png) no-repeat; */
 }
 
 footer.footer-area .social h5{
@@ -259,12 +279,15 @@ footer.footer-area .social h5{
 footer.footer-area .social a > i{
     font-size:22px;
     padding: 2rem;
-    color: var(--border-color);
+    color: whitesmoke;
 }
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 
-
+footer .footer-para{
+    color: white;
+    font: normal 500 18px/ 25px var(--roboto);
+}
 /* End Footer */ 
