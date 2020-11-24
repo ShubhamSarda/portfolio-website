@@ -176,23 +176,30 @@
     padding: 0 5rem;
 }
 
-.site-main .services-area .services-title h1{
-    font-size: 35px;
-}
-
 .site-main > .services-area .services{
-    background: #e6f2ff;
+    background: white;
     padding: 2rem 0;
     margin: 2rem 0rem;
     transition: box-shadow .7s ease;
-    border-radius: 10px;
+    border-radius: 10px; 
+    box-shadow: 0px 10px 5px rgba(57, 56, 61, 0.205);
 }
 
 .site-main > .services-area .services:hover{
     box-shadow: var(--box-shadow);
 }
 
+.site-main .services .services-img > img{
+    width: 130px;
+    height: 130px;
+}
 
+.ul-project-seperator{
+    background: #0966e5;
+    width: 50px;
+    height: 3px;
+    margin: 10px auto 10px;
+}
 
 /* End Services Area */ 
 
@@ -262,14 +269,10 @@
 
 /* Footer Area */ 
 
-footer{
-    background: var(--gradient-color);
-}
-
 footer.footer-area{
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 2rem;
-    /* background: url(../img/footer-bg.png) no-repeat; */
+    background: #333333;
 }
 
 footer.footer-area .social h5{
@@ -286,8 +289,46 @@ footer.footer-area .social a:hover > i{
     color: var(--primary-color);
 }
 
+footer.footer-area .social .fa-instagram:hover{
+    color: #E85542;
+}
+
+footer.footer-area .social .fa-youtube:hover{
+    color: #FF0000;
+}
+
+footer.footer-area .social .fa-github:hover{
+    color: #24292E;
+}
+
+footer.footer-area .social .fa-linkedin:hover{
+    color: #0A66C2;
+}
+
 footer .footer-para{
     color: white;
-    font: normal 500 18px/ 25px var(--roboto);
+    font: normal 500 20px/ 25px var(--roboto);
+}
+.ul-footer-seperator{
+    background: white;
+    width: 30%;
+    height: 2px;
+    margin: 10px auto 10px;
 }
 /* End Footer */ 
+
+
+.custom-card{
+    font: normal 400 17px/ 30px var(--roboto);
+    background: white;
+    padding: 2rem 2rem;
+    margin: 2rem 0rem;
+    box-shadow: var(--box-shadow);
+    transition: box-shadow .7s ease;
+    border-radius: 10px; 
+    text-align: left;
+}
+.feedback-name{
+    color:  #0966e5;
+    font: italic 700 17px/ 30px var(--roboto);
+}
