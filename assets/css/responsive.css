@@ -5,10 +5,10 @@
 @media only screen and (max-width: 340px){
     .header_area .main-menu .navbar,
     .header_area .main-menu .navbar .navbar-brand,
-    .site-main .subscribe-us-area .subscribe .subscribe-title,
-    .site-main .subscribe-us-area .subscribe .subscribe-title p, h4,
-    .site-main .services-area,
-    .site-main .subscribe-us-area .subscribe
+    .site-main .contact-us-area .contact .contact-title,
+    .site-main .contact-us-area .contact .contact-title p, h4,
+    .site-main .project-area,
+    .site-main .contact-us-area .contact
     {
         padding: 2%;
         margin: 0%;
@@ -18,11 +18,11 @@
         font-size: 41px;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    .site-main .contact-us-area .contact form .input-textbox input{
         width: 15rem    !important;
     }
 
-    .site-main > .services-area .services{
+    .site-main > .project-area .project{
         width: 13rem;
     }
 
@@ -51,14 +51,14 @@
     }
 
     .site-main .project-area .button-group button{
-        font: normal 500 18px/40px var(--roboto);
+        font: normal 500 18px/40px var(--lato);
     }
 
     .site-main .about-area .about-title p{
         padding: 0%;
     }
 
-    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+    .site-main .contact-us-area .contact form .input-textbox input{
         width: 20rem;
         margin: 5%;
     }
@@ -69,7 +69,7 @@
 /* if the viewport is equal to 1910px or less than that */ 
 @media only screen and (max-width: 1910px){
     .header_area .main-menu .navbar{
-        padding: 1rem;
+        padding: 2rem;
     }
 
     .container{
@@ -77,7 +77,7 @@
     }
 
     .site-main .brand-area,
-    .site-main .services-area .services-title,
+    .site-main .project-area .project-title,
     .site-main .about-area{
         padding: 3% 4%;
     }

@@ -17,7 +17,7 @@
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 700 15px/2px var(--roboto);
+    font: normal 700 15px/2px var(--lato);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -77,7 +77,7 @@
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px var(--lato);
     letter-spacing: 4px;
 }
 
@@ -88,18 +88,19 @@
 /* End About Area */ 
 
 
+
 /* Project Area */ 
 
-.site-main .services-area{
+.site-main .project-area{
     padding-top: 3rem;
     padding-bottom: 5rem;
 }
 
-.site-main .services-area .services-title{
+.site-main .project-area .project-title{
     padding: 0 5rem;
 }
 
-.site-main > .services-area .services{
+.site-main > .project-area .project{
     background: white;
     padding: 2rem 0;
     margin: 2rem 0rem;
@@ -108,11 +109,11 @@
     box-shadow: 0px 10px 5px rgba(57, 56, 61, 0.205);
 }
 
-.site-main > .services-area .services:hover{
+.site-main > .project-area .project:hover{
     box-shadow: var(--box-shadow);
 }
 
-.site-main .services .services-img > img{
+.site-main .project .project-img > img{
     width: 130px;
     height: 130px;
 }
@@ -134,12 +135,12 @@
     margin-bottom: 4rem;
 }
 
-.site-main .brand-area .first-row .col-lg-4{
+.site-main .brand-area .first-row .col-lg-2{
     display: flex;
     justify-content: center;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand{
+.site-main .brand-area .first-row .col-lg-2 > .single-brand{
     border: 1px solid var(--border-color);
     text-align: center;
     padding: 1.8rem 0rem;
@@ -150,11 +151,11 @@
     transition: transform .4s ease;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand > img{
+.site-main .brand-area .first-row .col-lg-2 > .single-brand > img{
     width: 50%;
 }
 
-.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
+.site-main .brand-area .first-row .col-lg-2 > .single-brand:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
@@ -184,13 +185,13 @@
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
+    font: normal bold 84px/40px var(--lato);
     color: var(--primary-color2);
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px var(--lato);
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -200,10 +201,24 @@
 /* End Brand Area */ 
 
 
-/* Testimonials */ 
+/* Feedbacks */ 
 
-.site-main .about-area .custom-card{
-    font: normal 400 17px/ 30px var(--roboto);
+.site-main .feedback-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .feedback-area .feedback-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--lato);
+    letter-spacing: 4px;
+}
+
+.site-main .feedback-area .feedback-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+.site-main .feedback-area .custom-card{
+    font: normal 400 17px/ 30px var(--lato);
     background: white;
     padding: 2rem 2rem;
     margin: 2rem 0rem;
@@ -213,58 +228,90 @@
     text-align: left;
 }
 
-.site-main .about-area .feedback-name{
+.site-main .feedback-area .feedback-name{
     color:  #0966e5;
-    font: italic 700 17px/ 30px var(--roboto);
+    font: italic 700 17px/ 30px var(--lato);
 }
-/* End Testimonials */ 
+/* End Feedbacks */ 
 
-/* contact me */ 
+/* Blog Area */ 
+.site-main .blog-area{
+    padding: 8rem 5rem;
+}
 
-.site-main .subscribe-us-area{
+.site-main .blog-area .blog-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--lato);
+    letter-spacing: 4px;
+}
+
+.site-main .blog-area .blog-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End Blog Area */ 
+
+/* Contact me */ 
+
+.site-main .contact-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .contact-area .contact-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--lato);
+    letter-spacing: 4px;
+}
+
+.site-main .contact-area .contact-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+.site-main .contact-us-area{
     background: url(../img/banner/home-bg.jpg) no-repeat;
     padding: 10rem 0;
     margin: 0 auto;
 }
 
-.site-main .subscribe-us-area .subscribe .subscribe-title h4{
-    font: normal 700 30px/ 30px var(--roboto);
+.site-main .contact-us-area .contact .contact-title h4{
+    font: normal 700 30px/ 30px var(--lato);
     color: whitesmoke;
 }
 
-.site-main .subscribe-us-area .subscribe .subscribe-title p{
+.site-main .contact-us-area .contact .contact-title p{
     color: whitesmoke;
     padding: 1rem 4rem;
 }
-.site-main .subscribe-us-area .subscribe form{
+.site-main .contact-us-area .contact form{
     max-width: 500px;
     margin: auto;
     padding: 50px;
     color: white;
-    font: normal 500 18px/20px var(--roboto);
+    font: normal 500 18px/20px var(--lato);
     border: 1px solid #e6f2ff;
     border-radius: 5px;
 }
-.site-main .subscribe-us-area .subscribe form .input-textbox input{
+.site-main .contact-us-area .contact form .input-textbox input{
     width: 400px;
     padding: 1.5rem 1rem;
     border: 1px solid whitesmoke;
     background: transparent;
     color: white;
-    font: normal 500 17px/20px var(--roboto);
+    font: normal 500 17px/20px var(--lato);
 }
 
-.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+.site-main .contact-us-area .contact form .input-textbox input::placeholder{
     color: whitesmoke;
 }
 
-.site-main .subscribe-us-area .subscribe form .btn-submit button{
+.site-main .contact-us-area .contact form .btn-submit button{
     background: whitesmoke;
     color: #000;
     padding: .7rem 2rem;
 }
 
-/* End contact me */ 
+/* End Contact me */ 
+
 
 /* Footer Area */ 
 
@@ -275,7 +322,7 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: normal 500 23px/ 30px var(--lato);
 }
 
 footer.footer-area .social a > i{
@@ -306,7 +353,7 @@ footer.footer-area .social .fa-linkedin:hover{
 
 footer .footer-para{
     color: white;
-    font: normal 500 20px/ 25px var(--roboto);
+    font: normal 500 20px/ 25px var(--lato);
 }
 .ul-footer-seperator{
     background: white;
