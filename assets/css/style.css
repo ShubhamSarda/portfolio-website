@@ -9,7 +9,7 @@
 /* start navigation */ 
 
 .header_area .main-menu .navbar .navbar-brand{
-    padding: 2rem 2rem 0 5rem;
+    padding: 0rem 2rem 0 5rem;
 }
 
 .header_area .main-menu .navbar{
@@ -39,8 +39,8 @@
     background-clip: text;
 }
 
-
 /* end navigation */ 
+
 
 /* Banner Area */ 
 
@@ -66,9 +66,8 @@
     width: 90rem;
 }
 
-
-
 /* End Banner Area */ 
+
 
 /* Start About Area */ 
 
@@ -87,6 +86,45 @@
 }
 
 /* End About Area */ 
+
+
+/* Project Area */ 
+
+.site-main .services-area{
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 5rem;
+}
+
+.site-main > .services-area .services{
+    background: white;
+    padding: 2rem 0;
+    margin: 2rem 0rem;
+    transition: box-shadow .7s ease;
+    border-radius: 10px; 
+    box-shadow: 0px 10px 5px rgba(57, 56, 61, 0.205);
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .services .services-img > img{
+    width: 130px;
+    height: 130px;
+}
+
+.ul-project-seperator{
+    background: #0966e5;
+    width: 50px;
+    height: 3px;
+    margin: 10px auto 10px;
+}
+
+/* End Project Area */ 
 
 
 /* Start Brand Area */ 
@@ -119,10 +157,6 @@
 .site-main .brand-area .first-row .col-lg-4 > .single-brand:hover{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
-}
-
-.site-main .brand-area .first-row .col-lg-4 > .single-brand:hover > img{
-    filter: brightness(0.15);
 }
 
 .site-main .brand-area .experience-area{
@@ -165,62 +199,27 @@
 
 /* End Brand Area */ 
 
-/* Services Area */ 
 
-.site-main .services-area{
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-}
+/* Testimonials */ 
 
-.site-main .services-area .services-title{
-    padding: 0 5rem;
-}
-
-.site-main > .services-area .services{
+.site-main .about-area .custom-card{
+    font: normal 400 17px/ 30px var(--roboto);
     background: white;
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     margin: 2rem 0rem;
+    box-shadow: var(--box-shadow);
     transition: box-shadow .7s ease;
     border-radius: 10px; 
-    box-shadow: 0px 10px 5px rgba(57, 56, 61, 0.205);
+    text-align: left;
 }
 
-.site-main > .services-area .services:hover{
-    box-shadow: var(--box-shadow);
+.site-main .about-area .feedback-name{
+    color:  #0966e5;
+    font: italic 700 17px/ 30px var(--roboto);
 }
+/* End Testimonials */ 
 
-.site-main .services .services-img > img{
-    width: 130px;
-    height: 130px;
-}
-
-.ul-project-seperator{
-    background: #0966e5;
-    width: 50px;
-    height: 3px;
-    margin: 10px auto 10px;
-}
-
-/* End Services Area */ 
-
-
-/* Project Area */ 
-
-
-
-
-/* End Project Area */ 
-
-
-/* About Me */ 
-.site-main .about-area .testimonials{
-    box-shadow: var(--box-shadow);
-    transition: box-shadow .7s ease;
-}
-
-/* End About Me */ 
-
-/* Subscribe me */ 
+/* contact me */ 
 
 .site-main .subscribe-us-area{
     background: url(../img/banner/home-bg.jpg) no-repeat;
@@ -265,7 +264,7 @@
     padding: .7rem 2rem;
 }
 
-/* End subscribe me */ 
+/* End contact me */ 
 
 /* Footer Area */ 
 
@@ -316,19 +315,3 @@ footer .footer-para{
     margin: 10px auto 10px;
 }
 /* End Footer */ 
-
-
-.custom-card{
-    font: normal 400 17px/ 30px var(--roboto);
-    background: white;
-    padding: 2rem 2rem;
-    margin: 2rem 0rem;
-    box-shadow: var(--box-shadow);
-    transition: box-shadow .7s ease;
-    border-radius: 10px; 
-    text-align: left;
-}
-.feedback-name{
-    color:  #0966e5;
-    font: italic 700 17px/ 30px var(--roboto);
-}
